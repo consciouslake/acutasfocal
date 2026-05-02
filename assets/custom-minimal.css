@@ -70,3 +70,114 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
+
+/* 7. Hero Section Polish */
+.slideshow__content {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: heroFadeUp 1.2s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+  animation-delay: 0.3s;
+}
+
+.slideshow__title {
+  font-family: var(--heading-font-family);
+  font-size: clamp(2.5rem, 5vw, 4rem) !important;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+
+.slideshow__sub-title {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 16px;
+  color: #2B2B2B;
+}
+
+.slideshow__button-wrapper {
+  margin-top: 32px;
+  opacity: 0;
+  animation: heroFadeIn 1s ease-out forwards;
+  animation-delay: 0.8s;
+}
+
+@keyframes heroFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes heroFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Slideshow navigation arrows - more minimal */
+.slideshow__nav-button {
+  background: transparent !important;
+  color: #2B2B2B !important;
+}
+
+.slideshow__nav-button:hover {
+  background: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* 8. Footer Refinements */
+.footer {
+  padding-top: 80px;
+  border-top: 1px solid #f0f0f0; /* Very subtle separator */
+}
+
+.footer__item-title {
+  text--xsmall;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.footer__item-content {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.text-with-icons {
+  border-bottom: none !important;
+  background-color: #fff !important;
+  padding: 40px 0 !important;
+}
+
+.text-with-icons__item-title {
+  font-size: 0.85rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.text-with-icons__icon-wrapper {
+  width: 32px !important;
+  height: 32px !important;
+  color: #2B2B2B !important;
+}
+
+/* Hide Powered by Shopify */
+.footer__copyright {
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+.footer__newsletter-form .input__field {
+  border-bottom: 1px solid #2B2B2B !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-radius: 0 !important;
+}
+
+

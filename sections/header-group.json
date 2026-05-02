@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header group",
@@ -12,7 +21,8 @@
             "learn_more_text": "Learn more",
             "title": "",
             "content": "",
-            "button_text": ""
+            "button_text": "",
+            "button_link": ""
           }
         }
       },
@@ -24,26 +34,190 @@
         "announcement_text_size": "small",
         "autoplay": true,
         "cycle_speed": 5,
-        "background": "#FFFFFF",
-        "text_color": "#2B2B2B",
-        "button_background": "#1B2436",
+        "background": "#ffffff",
+        "text_color": "#2b2b2b",
+        "button_background": "#1b2436",
         "button_text_color": "#ffffff"
       }
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "mega_menu_iYqExG": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Health & Medical Supply",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        },
+        "mega_menu_DnCkxF": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Automotive",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        },
+        "mega_menu_fjHAEa": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        },
+        "mega_menu_bxHQzV": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Clothing & Accessories",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        },
+        "mega-menu-1": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Home & Kitchen",
+            "images_position": "right",
+            "image_1_heading": "Kitchen Organization",
+            "image_1_text": "Maximize your space with Japanese precision.",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        },
+        "mega-menu-2": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Home & Kitchen",
+            "images_position": "right",
+            "image_1_heading": "Workspace Essentials",
+            "image_1_text": "Minimalist solutions for a productive desk.",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_iYqExG",
+        "mega_menu_DnCkxF",
+        "mega_menu_fjHAEa",
+        "mega_menu_bxHQzV",
+        "mega-menu-1",
+        "mega-menu-2"
+      ],
       "settings": {
         "enable_sticky_header": true,
+        "logo": "shopify://shop_images/logo-1.png",
         "logo_max_width": 180,
         "mobile_logo_max_width": 120,
         "navigation_menu": "main-menu",
+        "sidebar_navigation_menu": "",
         "header_layout": "logo_left_navigation_center",
         "show_icons": true,
         "reduce_desktop_padding": false,
         "show_locale_selector": false,
         "show_country_selector": false,
         "enable_transparent_header": false,
-        "transparent_header_text_color": "#ffffff"
+        "transparent_header_text_color": "#ffffff",
+        "search_menu": "",
+        "customer_account_menu": "customer-account-main-menu"
       }
     }
   },

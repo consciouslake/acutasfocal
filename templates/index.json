@@ -7,20 +7,88 @@
           "type": "image",
           "settings": {
             "text_position": "middle_left",
-            "subheading": "New Arrival",
-            "title": "Minimalist Home Solutions",
-            "button_1_text": "Shop The Collection",
-            "button_2_text": "",
+            "subheading": "Premium Scenting",
+            "title": "Akaliko Collection",
+            "button_1_text": "Explore Scents",
             "text_color": "#2B2B2B",
             "button_background": "#1B2436",
             "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "slide-2": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_left",
+            "subheading": "Gentle Care",
+            "title": "Baby Essentials",
+            "button_1_text": "Shop Baby",
+            "text_color": "#2B2B2B",
+            "button_background": "#1B2436",
+            "button_text_color": "#ffffff",
+            "overlay_opacity": 0
+          }
+        },
+        "slide-3": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_left",
+            "subheading": "Serene Silence",
+            "title": "Premium Earplugs",
+            "button_1_text": "Shop Now",
+            "text_color": "#2B2B2B",
+            "button_background": "#1B2436",
+            "button_text_color": "#ffffff",
+            "overlay_opacity": 0
+          }
+        },
+        "slide-4": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_left",
+            "subheading": "Wellness",
+            "title": "Natural Care",
+            "button_1_text": "Discover More",
+            "text_color": "#2B2B2B",
+            "button_background": "#1B2436",
+            "button_text_color": "#ffffff",
+            "overlay_opacity": 0
+          }
+        },
+        "slide-5": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_left",
+            "subheading": "Softness",
+            "title": "Microfiber Solutions",
+            "button_1_text": "Shop Microfiber",
+            "text_color": "#2B2B2B",
+            "button_background": "#1B2436",
+            "button_text_color": "#ffffff",
+            "overlay_opacity": 0
+          }
+        },
+        "slide-6": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_left",
+            "subheading": "Utility",
+            "title": "Smart Sponges",
+            "button_1_text": "Shop Sponges",
+            "text_color": "#2B2B2B",
+            "button_background": "#1B2436",
+            "button_text_color": "#ffffff",
             "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "slide-1"
+        "slide-1",
+        "slide-2",
+        "slide-3",
+        "slide-4",
+        "slide-5",
+        "slide-6"
       ],
       "settings": {
         "section_height": "large",
