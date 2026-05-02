@@ -1,0 +1,118 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_left",
+            "subheading": "New Arrival",
+            "title": "Minimalist Home Solutions",
+            "button_1_text": "Shop The Collection",
+            "button_2_text": "",
+            "text_color": "#2B2B2B",
+            "button_background": "#1B2436",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide-1"
+      ],
+      "settings": {
+        "section_height": "large",
+        "transition_type": "fade",
+        "show_initial_transition": true,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "#FFFFFF"
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "label": "Best sellers"
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "label": "New in"
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "label": "Bundles"
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-2",
+        "collection-3"
+      ],
+      "settings": {
+        "title": "Explore",
+        "products_count": 12,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "tab_label": "Stow",
+            "subheading": "Process",
+            "title": "Designing the Stow Collection",
+            "content": "<p>The decision to create this collection was not taken lightly. With a strong focus on thoughtful yet highly functional design, the goal was never to produce just another sleeve or organizer. Instead, the aim was to develop a solution that reflects a commitment to balance and purposeful design.</p>"
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "tab_label": "Leather",
+            "subheading": "Process",
+            "title": "Crafting the Leather Collection",
+            "content": "<p>Leather has long been a material of choice—valued both for its durability and the refined look it brings. Whether used as a subtle design detail or explored through bold colors and patterns, it continues to offer a versatile and enduring foundation for creative expression.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#f3ff34",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "#845640",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "featured-collections",
+    "image-with-text"
+  ]
+}

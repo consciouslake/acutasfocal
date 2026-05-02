@@ -1,0 +1,72 @@
+/*
+  Yamazaki Minimalist Refinement
+  Target: Product Grid and Global Spacing
+*/
+
+/* 1. Global Spacing & Typography */
+:root {
+  --product-list-gutter: 48px; /* Increased from 24px */
+  --product-list-vertical-spacing: 64px;
+}
+
+/* 2. Product Grid Layout */
+.product-list__inner {
+  grid-gap: var(--product-list-vertical-spacing) var(--product-list-gutter) !important;
+}
+
+/* 3. Product Card Clean-up */
+.product-item {
+  border: none !important;
+  box-shadow: none !important;
+  transition: opacity 0.3s ease;
+}
+
+.product-item:hover {
+  opacity: 0.8; /* Subtle hover effect instead of borders/shadows */
+}
+
+.product-item__title {
+  font-family: var(--text-font-family);
+  font-weight: 400;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  margin-top: 16px;
+  color: #2B2B2B;
+}
+
+.product-item__price-list {
+  font-size: 0.9rem;
+  color: #666; /* Lighter price text */
+  margin-top: 4px;
+}
+
+/* 4. Remove UI Dividers */
+.tabs-nav, 
+.section__header,
+.collection__toolbar {
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+.tabs-nav__item {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+}
+
+.tabs-nav__item[aria-expanded="true"] {
+  border-bottom: 2px solid #2B2B2B; /* Minimal active state */
+}
+
+/* 5. Image Wrapper */
+.product-item__image-wrapper {
+  background-color: #f9f9f9; /* Subtle off-white for product backgrounds */
+  border-radius: 0;
+}
+
+/* 6. Navigation / Header Clean-up */
+.header__nav-link {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
