@@ -5,14 +5,12 @@
 
 /* 1. Global Spacing & Typography */
 :root {
-  --product-list-gutter: 48px; /* Increased from 24px */
+  --product-list-gutter: 32px; /* Adjusted to allow 4 columns */
+  --product-list-column-gap: 32px; /* Sync calculation with actual gap */
   --product-list-vertical-spacing: 64px;
 }
 
-/* 2. Product Grid Layout */
-.product-list__inner {
-  grid-gap: var(--product-list-vertical-spacing) var(--product-list-gutter) !important;
-}
+
 
 /* 3. Product Card Clean-up */
 .product-item {
@@ -64,11 +62,19 @@
   border-radius: 0;
 }
 
-/* 6. Navigation / Header Clean-up */
+/* 6. Navigation / Header Refinement */
 .header__nav-link {
-  font-size: 0.85rem;
+  font-size: 0.75rem !important; /* Micro-scale */
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.15em !important; /* Expanded air */
+  font-weight: 500;
+  color: #2b2b2b;
+}
+
+.announcement-bar__message {
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 /* 7. Hero Section Polish */
@@ -123,29 +129,63 @@
 .slideshow__nav-button {
   background: transparent !important;
   color: #2B2B2B !important;
+  border: none !important;
 }
 
 .slideshow__nav-button:hover {
   background: rgba(255, 255, 255, 0.8) !important;
 }
 
-/* 8. Footer Refinements */
+/* 8. Footer: Yamazaki Signature (Dark Charcoal) */
 .footer {
-  padding-top: 80px;
-  border-top: 1px solid #f0f0f0; /* Very subtle separator */
+  background-color: #1B2436 !important; /* The Yamazaki Charcoal */
+  color: #ffffff !important;
+  padding-top: 100px;
+  padding-bottom: 60px;
 }
 
 .footer__item-title {
-  text--xsmall;
+  font-size: 0.7rem !important;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-weight: 500;
-  margin-bottom: 24px;
+  letter-spacing: 0.2em !important;
+  font-weight: 600;
+  margin-bottom: 32px;
+  color: #ffffff !important;
+  opacity: 0.9;
 }
 
-.footer__item-content {
-  font-size: 0.9rem;
-  line-height: 1.6;
+.footer__linklist-link,
+.footer__item-content p {
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-size: 0.8rem !important;
+  letter-spacing: 0.03em;
+  line-height: 1.8;
+}
+
+.footer__linklist-link:hover {
+  color: #ffffff !important;
+  opacity: 1;
+}
+
+.footer__newsletter-form .input__field {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+  color: #ffffff !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  padding-left: 0 !important;
+  box-shadow: none !important;
+  -webkit-appearance: none;
+}
+
+.footer__newsletter-form .input__label {
+  background: transparent !important; /* Fix for the 'highlighted' look */
+  background-color: transparent !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.footer__newsletter-form .input__field:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #1B2436 inset !important;
+  -webkit-text-fill-color: white !important;
 }
 
 .text-with-icons {
@@ -180,4 +220,167 @@
   border-radius: 0 !important;
 }
 
+/* 9. Homepage Narrative Spacing */
+.shopify-section--slideshow + .shopify-section,
+.shopify-section--rich-text + .shopify-section,
+.shopify-section--logo-list + .shopify-section,
+.shopify-section--featured-collections + .shopify-section,
+.shopify-section--image-with-text + .shopify-section {
+  margin-top: 100px !important;
+}
 
+.image-with-text__content {
+  padding-left: 64px !important;
+  padding-right: 64px !important;
+}
+
+.image-with-text__title {
+  font-family: var(--heading-font-family);
+  font-size: 2rem !important;
+  letter-spacing: -0.01em;
+  margin-bottom: 24px;
+}
+
+.image-with-text__subheading {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.8rem;
+  margin-bottom: 12px;
+  color: #2B2B2B;
+}
+
+@media screen and (max-width: 740px) {
+  .shopify-section--slideshow + .shopify-section {
+    margin-top: 60px !important;
+  }
+  .image-with-text__content {
+    padding: 40px 20px !important;
+  }
+}/* 10. Product Detail Page (PDP) Compression */
+.product__info-container {
+  padding-left: 48px !important;
+}
+
+.product-form,
+.product-meta,
+.product-meta__title,
+.product-meta__price-list {
+  border: none !important;
+  margin-bottom: 24px;
+}
+
+/* Remove horizontal dividers on PDP */
+.product-info-block,
+.product-info-block + .product-info-block {
+  border-top: none !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Minimalist Product Tabs */
+.product-tabs__nav {
+  border-bottom: 1px solid #eeeeee !important;
+  justify-content: flex-start !important;
+}
+
+.product-tabs__nav-item {
+  font-size: 0.8rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-bottom: 12px;
+  margin-right: 32px;
+  border-bottom: 2px solid transparent;
+}
+
+.product-tabs__nav-item[aria-expanded="true"] {
+  border-bottom: 2px solid #1B2436;
+}
+
+
+@media screen and (max-width: 999px) {
+  .product__info-container {
+    padding-left: 0 !important;
+    padding-top: 32px;
+  }
+
+}
+
+/* 11. Surgical Header & Announcement Bar */
+.announcement-bar,
+.announcement-bar__message {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  min-height: 0 !important;
+  line-height: 1.2 !important;
+  background-color: #1B2436 !important;
+  color: #ffffff !important;
+}
+
+.announcement-bar {
+  border-bottom: 1px solid #eeeeee !important;
+}
+
+.header {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+/* Logo restored to original size */
+
+/* Utility separators (Account, Search, Cart) */
+.header__action-list-item {
+  padding: 0 16px !important;
+  border-right: 1px solid #eeeeee;
+}
+
+.header__action-list-item:last-child {
+  border-right: none;
+}
+
+
+
+/* Minimalist Filter Sidebar */
+.facets__wrapper {
+  border: none !important;
+  padding-left: 0 !important;
+}
+
+.facet-group {
+  border-bottom: 1px solid #eeeeee !important;
+  margin-bottom: 24px !important;
+  padding-bottom: 16px !important;
+}
+
+.facet-group__header {
+  padding: 0 !important;
+}
+
+.facet-group__title {
+  font-size: 0.75rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.1em !important;
+  font-weight: 600 !important;
+  color: #1b2436 !important;
+}
+
+.facet-group__content {
+  padding-left: 0 !important;
+  padding-top: 12px !important;
+}
+
+.facet-checkbox {
+  font-size: 0.8rem !important;
+  color: #666 !important;
+}
+
+/* Remove 'Sort By' boxiness */
+.collection__toolbar-item {
+  border: none !important;
+  background: transparent !important;
+}
+
+.popover-button {
+  font-size: 0.75rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow": {
@@ -6,79 +15,109 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "text_position": "middle_left",
-            "subheading": "Premium Scenting",
-            "title": "Akaliko Collection",
+            "image": "shopify://shop_images/banner-akaliko_cb982ede-6811-49a6-8907-e4302c88eac6.jpg",
+            "text_position": "bottom_right",
+            "subheading": "",
+            "title": "",
             "button_1_text": "Explore Scents",
-            "text_color": "#2B2B2B",
-            "button_background": "#1B2436",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#2b2b2b",
+            "button_background": "#1b2436",
             "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         },
         "slide-2": {
           "type": "image",
           "settings": {
-            "text_position": "middle_left",
-            "subheading": "Gentle Care",
-            "title": "Baby Essentials",
-            "button_1_text": "Shop Baby",
-            "text_color": "#2B2B2B",
-            "button_background": "#1B2436",
+            "image": "shopify://shop_images/banner-baby_bbdc8b47-cdd0-465f-ab54-9aceb97bfa35.jpg",
+            "text_position": "bottom_right",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "Shop Baby Products",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#2b2b2b",
+            "button_background": "#1b2436",
             "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         },
         "slide-3": {
           "type": "image",
           "settings": {
-            "text_position": "middle_left",
-            "subheading": "Serene Silence",
-            "title": "Premium Earplugs",
+            "image": "shopify://shop_images/banner-earplugs_52ac507b-db33-40a3-948d-81d0a7bb9fd7.jpg",
+            "text_position": "bottom_left",
+            "subheading": "",
+            "title": "",
             "button_1_text": "Shop Now",
-            "text_color": "#2B2B2B",
-            "button_background": "#1B2436",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#2b2b2b",
+            "button_background": "#1b2436",
             "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         },
-        "slide-4": {
+        "image_kYgiL3": {
           "type": "image",
           "settings": {
-            "text_position": "middle_left",
-            "subheading": "Wellness",
-            "title": "Natural Care",
-            "button_1_text": "Discover More",
-            "text_color": "#2B2B2B",
-            "button_background": "#1B2436",
-            "button_text_color": "#ffffff",
-            "overlay_opacity": 0
+            "image": "shopify://shop_images/banner-microfiber_72ce00ee-ef9f-4ac5-b087-4bd075c46932.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
           }
         },
-        "slide-5": {
+        "image_tNyNwJ": {
           "type": "image",
           "settings": {
-            "text_position": "middle_left",
-            "subheading": "Softness",
-            "title": "Microfiber Solutions",
-            "button_1_text": "Shop Microfiber",
-            "text_color": "#2B2B2B",
-            "button_background": "#1B2436",
-            "button_text_color": "#ffffff",
-            "overlay_opacity": 0
+            "image": "shopify://shop_images/banner-enema_6d32e2d7-6204-4f69-b462-021de34dd54b.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
           }
         },
-        "slide-6": {
+        "image_EMGakJ": {
           "type": "image",
           "settings": {
-            "text_position": "middle_left",
-            "subheading": "Utility",
-            "title": "Smart Sponges",
-            "button_1_text": "Shop Sponges",
-            "text_color": "#2B2B2B",
-            "button_background": "#1B2436",
-            "button_text_color": "#ffffff",
-            "overlay_opacity": 0
+            "image": "shopify://shop_images/banner-sponge_766d8dc4-9e3c-47bc-b7a3-292fa11f2079.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
           }
         }
       },
@@ -86,9 +125,9 @@
         "slide-1",
         "slide-2",
         "slide-3",
-        "slide-4",
-        "slide-5",
-        "slide-6"
+        "image_kYgiL3",
+        "image_tNyNwJ",
+        "image_EMGakJ"
       ],
       "settings": {
         "section_height": "large",
@@ -96,73 +135,184 @@
         "show_initial_transition": true,
         "autoplay": true,
         "cycle_speed": 5,
-        "background": "#FFFFFF"
+        "background": "#ffffff"
       }
     },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "label": "Best sellers"
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "label": "New in"
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "label": "Bundles"
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "collection-2",
-        "collection-3"
-      ],
+    "legacy-statement": {
+      "type": "rich-text",
       "settings": {
-        "title": "Explore",
-        "products_count": 12,
-        "products_per_row": 4,
-        "stack_products": false,
-        "show_cta": false,
+        "subheading": "",
+        "title": "A Legacy of Trust",
+        "content": "<p>Since 2012, Acutastore has been dedicated to simplifying modern living. With over 2 million orders shipped and a heritage of 11 successful years, we continue to bring Japanese-inspired precision and minimalist elegance to homes worldwide.</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "image-with-text": {
-      "type": "image-with-text",
+    "brand-logos": {
+      "type": "logo-list",
       "blocks": {
-        "item-1": {
-          "type": "item",
+        "acutas": {
+          "type": "logo",
           "settings": {
-            "tab_label": "Stow",
-            "subheading": "Process",
-            "title": "Designing the Stow Collection",
-            "content": "<p>The decision to create this collection was not taken lightly. With a strong focus on thoughtful yet highly functional design, the goal was never to produce just another sleeve or organizer. Instead, the aim was to develop a solution that reflects a commitment to balance and purposeful design.</p>"
+            "logo": "shopify://shop_images/brand-acutas.png",
+            "link": ""
           }
         },
-        "item-2": {
-          "type": "item",
+        "autofrill": {
+          "type": "logo",
           "settings": {
-            "tab_label": "Leather",
-            "subheading": "Process",
-            "title": "Crafting the Leather Collection",
-            "content": "<p>Leather has long been a material of choice—valued both for its durability and the refined look it brings. Whether used as a subtle design detail or explored through bold colors and patterns, it continues to offer a versatile and enduring foundation for creative expression.</p>"
+            "logo": "shopify://shop_images/brand-autofrill.png",
+            "link": ""
+          }
+        },
+        "balixo": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/brand-daluci.png",
+            "link": ""
+          }
+        },
+        "keycase": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/brand-awejoy.jpg",
+            "link": ""
+          }
+        },
+        "techvor": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/brand-keycase.png",
+            "link": ""
+          }
+        },
+        "logo_6dUCTq": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/brand-masti.png",
+            "link": ""
+          }
+        },
+        "logo_QbqPTV": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/brand-etuzi.png",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "item-1",
-        "item-2"
+        "acutas",
+        "autofrill",
+        "balixo",
+        "keycase",
+        "techvor",
+        "logo_6dUCTq",
+        "logo_QbqPTV"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "Our Brands",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_WtXXPA": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_WtXXPA"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Best Sellers",
+        "content": "",
+        "products_count": 8,
+        "mobile_products_per_row": "2",
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "baby-spotlight": {
+      "type": "image-with-text",
+      "blocks": {
+        "item": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/sidebar-baby.png",
+            "tab_label": "Item",
+            "subheading": "Gentle & Safe",
+            "title": "Baby Care Essentials",
+            "content": "<p>Designed with the utmost care for your little ones. Explore our range of minimalist baby solutions that prioritize safety and comfort.</p>",
+            "button_text": "Shop Baby Collection",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "cleaning-spotlight": {
+      "type": "image-with-text",
+      "blocks": {
+        "item": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/sidebar-cleaning.jpg",
+            "tab_label": "Item",
+            "subheading": "SUPER SHINE",
+            "title": "Smart Cleaning Solutions",
+            "content": "<p>Transform your daily chores into a seamless experience. Our cleaning tools are designed to be as beautiful as they are functional.</p>",
+            "button_text": "Explore Utility",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item"
       ],
       "settings": {
         "reveal_on_scroll": true,
@@ -171,16 +321,85 @@
         "image_position": "right",
         "text_alignment": "center",
         "cycle_speed": 8,
-        "accent_background": "#f3ff34",
+        "accent_background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
-        "button_background": "#845640",
+        "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "trust-badges": {
+      "type": "multi-column",
+      "blocks": {
+        "shipping": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Free Shipping",
+            "content": "<p>No minimum purchase. Secure delivery to your doorstep.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "returns": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "15 Days Return",
+            "content": "<p>Risk-free shopping with our extended return policy.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "support": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Dedicated Support",
+            "content": "<p>Available 10AM - 7PM for all your queries.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "shipping",
+        "returns",
+        "support"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "Why Choose Us",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     }
   },
   "order": [
     "slideshow",
+    "legacy-statement",
+    "brand-logos",
     "featured-collections",
-    "image-with-text"
+    "baby-spotlight",
+    "cleaning-spotlight",
+    "trust-badges"
   ]
 }
